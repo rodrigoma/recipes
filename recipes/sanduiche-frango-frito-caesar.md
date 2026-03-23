@@ -5,8 +5,6 @@
 * 4 porções
 
 ## ingredientes
-
-### Frango empanado
 * 2 filés de frango sem osso e sem pele
 * 1 xícara de buttermilk (leitelho)
 * 1 colher de chá de molho de pimenta (opcional)
@@ -20,7 +18,7 @@
 * 2 ovos grandes, batidos
 * Óleo para fritar (abacate ou vegetal)
 
-### Molho Caesar
+Molho Caesar:
 * ⅓ xícara de maionese
 * 2 colheres de sopa de parmesão ralado
 * 1 colher de chá de mostarda Dijon
@@ -29,7 +27,7 @@
 * 1 colher de chá de molho inglês (Worcestershire)
 * Sal e pimenta-do-reino a gosto
 
-### Montagem
+Montagem:
 * 4 pãos brioche ou kaiser, tostados
 * 4 xícaras de alface romana picada
 * ¼ xícara de parmesão em lascas
