@@ -4,7 +4,7 @@
 * Cerca de 1h30 (incluindo marinada mínima de 1h)
 * 4 porções
 
-## ingredientes
+## ingredients
 * 2 filés de frango sem osso e sem pele
 * 1 xícara de buttermilk (leitelho)
 * 1 colher de chá de molho de pimenta (opcional)
