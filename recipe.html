@@ -1,12 +1,12 @@
 <!doctype html>
 <html profile="http://www.w3.org/2005/10/profile">
 	<head>
-		<title>Recipe Book</title>
+		<title>Livro de Receitas</title>
 
 		<!-- basics -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-		<link rel="icon" type="image/png" href="http://www.jeffreythompson.org/graphics/favicon.png">
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
 		
 		<!-- font and styles -->
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i,900,900i" rel="stylesheet"> 
@@ -22,12 +22,10 @@
 			// label = text displayed
 			// url = template url (put <name> where the search term
 			//       goes, it will be auto-added later)
-			let yelpLocation = 'Bloomfield, NJ';  // no need for fancy formatting, just do it like this
 			let helpUrls = [
-			  { label: 'Image search', url: 'https://www.google.com/search?q=' + '<name>' + '&tbm=isch' },
-			  { label: 'Serious Eats', url: 'https://www.seriouseats.com/search?q=' + '<name>' + '&site=recipes' },
-			  { label: 'More recipes', url: 'https://www.google.com/search?q=' + '<name>' + '+recipe'},
-			  { label: 'Yelp (takeout pls)', url: 'https://www.yelp.com/search?find_loc=' + yelpLocation + '&find_desc=' + '<name>' }
+			  { label: 'Busca de imagens', url: 'https://www.google.com/search?q=' + '<name>' + '&tbm=isch' },
+			  { label: 'TudoGostoso', url: 'https://www.tudogostoso.com.br/busca?q=' + '<name>' },
+			  { label: 'Mais receitas', url: 'https://www.google.com/search?q=' + '<name>' + '+receita' }
 			];
 
 			// look in a folder called 'images' for an image to display
@@ -40,7 +38,7 @@
 
 			// turn text-only urls to links in these sections
 			// (in other sections, markdown links will work as normal)
-			let autoUrlSections = [ 'basedon' ];
+			let autoUrlSections = [ 'fonte' ];
 
 			// trim display text for long urls in 'based on' section
 			// ex:           https://www.seriouseats.com/recipes/2012/01/aloo-matar.html
@@ -78,12 +76,12 @@
 			<section id="heroimage"></section>
 			<section id="title"></section>
 			<section id="info"></section>
-			<section id="ingredients"></section>
-			<section id="steps"></section>
+			<section id="ingredientes"></section>
+			<section id="passos"></section>
 			<hr />
-			<section id="notes"></section>
+			<section id="notas"></section>
 			<section id="help"></section>
-			<section id="basedon"></section>
+			<section id="fonte"></section>
 		</div>
 	</body>
 

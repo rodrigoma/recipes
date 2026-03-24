@@ -8,8 +8,7 @@ function loadRecipeList() {
   let prevLetter = '';
   
   // create list of recipes
-  for (let i in files) {
-    let url = files[i];
+  for (let url of files) {
     
     // skip files that start with underscore
     // (such as the _template.md file)

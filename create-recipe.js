@@ -77,7 +77,7 @@ $(document).ready(function() {
 
       // opt: remove cruft from 'based on' links
       if (shortenURLs) {
-        $('#basedon a').each( function() {
+        $('#fonte a').each( function() {
           let url = $(this).text();
           url = getDomain(url);
           $(this).text(url);
@@ -86,16 +86,18 @@ $(document).ready(function() {
 
       // in the ingredients, make things in parentheses a
       // bit lighter
-      $('#ingredients li').each( function() {
+      $('#ingredientes li').each( function() {
         let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
         $(this).html(str);
       });
 
-      // in info, add labels to time/quantity
+      // in info, add labels to time/quantity (only if both items exist)
       let time =  $('#info li:eq(0)');
       let makes = $('#info li:eq(1)');
-      $('#info ul').html('<li><span id="time">TIME </span>' + time.text() + '</li><li><span id="makes">MAKES </span>' + makes.text() + '</li>');
+      if (time.length && makes.length) {
+        $('#info ul').html('<li><span id="time">TEMPO </span>' + time.text() + '</li><li><span id="makes">PORÇÕES </span>' + makes.text() + '</li>');
+      }
 
       // link icon svg code
       // via: https://fontawesome.com/icons/external-link-alt
@@ -117,7 +119,7 @@ $(document).ready(function() {
       $('#help').html(help);
 
       // click a step to highlight it
-      $('#steps li').click( function() {
+      $('#passos li').click( function() {
         if ( $(this).hasClass('highlight') ) {
           $(this).removeClass('highlight');
         }

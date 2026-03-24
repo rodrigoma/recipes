@@ -1,19 +1,19 @@
-# TITLE
-Optional subheader
+# TÍTULO
+Subtítulo opcional
 
-## info  
-* About XXX minutes  
-* XXX servings  
+## info
+* Cerca de XXX minutos
+* XXX porções
 
-## ingredients
-* 
+## ingredientes
+*
 
-## steps  
-1. 
+## passos
+1.
 
-## notes  
-* 
+## notas
+*
 
-## based on  
-* 
+## fonte
+*
 

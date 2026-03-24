@@ -4,7 +4,7 @@
 * Cerca de 1h30 (incluindo marinada mínima de 1h)
 * 4 porções
 
-## ingredients
+## ingredientes
 * 2 filés de frango sem osso e sem pele
 * 1 xícara de buttermilk (leitelho)
 * 1 colher de chá de molho de pimenta (opcional)
@@ -34,7 +34,7 @@ Montagem:
 * Opcional: tiras de bacon crocante
 * Opcional: rodelas de tomate
 
-## steps
+## passos
 1. **Marinar o frango:** misture o buttermilk com o molho de pimenta e mergulhe os filés. Cubra e leve à geladeira por pelo menos 1 hora (melhor de 4 a 8h).
 2. **Preparar o molho Caesar:** bata todos os ingredientes do molho em uma tigela até ficar cremoso e homogêneo. Ajuste sal e pimenta. Reserve na geladeira.
 3. **Montar as estações de empanamento:** prato 1 — farinha misturada com alho em pó, cebola em pó, páprica, sal e pimenta; prato 2 — ovos batidos; prato 3 — farinha panko.
@@ -46,11 +46,11 @@ Montagem:
 6. **Descansar:** deixe o frango repousar 5 minutos antes de montar.
 7. **Montar o sanduíche:** toste os pãos. Tempere a alface com metade do molho Caesar. Espalhe molho no pão, coloque o frango, a alface temperada e o parmesão em lascas. Adicione bacon ou tomate se desejar. Sirva imediatamente.
 
-## notes
+## notas
 * O panko cria uma casca mais leve e crocante que a farinha tradicional — vale a pena usar.
 * A marinada de buttermilk amacia a carne e ajuda o empanamento a grudar melhor.
 * Sobras de frango duram até 3 dias na geladeira — reaqueça no forno ou air fryer para recuperar a crocância.
 * Para variações, experimente temperos cajun ou ervas italianas na farinha.
 
-## based on
+## fonte
 * https://grillnationbbq.com/2025/08/12/fried-chicken-caesar-sandwich/
