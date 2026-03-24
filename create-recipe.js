@@ -77,7 +77,7 @@ $(document).ready(function() {
 
       // opt: remove cruft from 'based on' links
       if (shortenURLs) {
-        $('#basedon a').each( function() {
+        $('#fonte a').each( function() {
           let url = $(this).text();
           url = getDomain(url);
           $(this).text(url);
@@ -86,7 +86,7 @@ $(document).ready(function() {
 
       // in the ingredients, make things in parentheses a
       // bit lighter
-      $('#ingredients li').each( function() {
+      $('#ingredientes li').each( function() {
         let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
         $(this).html(str);
@@ -117,7 +117,7 @@ $(document).ready(function() {
       $('#help').html(help);
 
       // click a step to highlight it
-      $('#steps li').click( function() {
+      $('#passos li').click( function() {
         if ( $(this).hasClass('highlight') ) {
           $(this).removeClass('highlight');
         }

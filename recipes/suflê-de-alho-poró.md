@@ -6,7 +6,7 @@ Um prato elegante e saboroso, perfeito para qualquer ocasião.
 * Cerca de 60 minutos
 * 4 porções
 
-## ingredients
+## ingredientes
 * 1 alho-poró grande
 * 1 cebola picada
 * 2 colheres de sopa de manteiga ou azeite
@@ -18,7 +18,7 @@ Um prato elegante e saboroso, perfeito para qualquer ocasião.
 * Queijo parmesão ralado a gosto
 * (Opcional) Queijo muçarela ralada para gratinar
 
-## steps
+## passos
 1. Prepare os vegetais: Lave e corte o alho-poró em rodelas ou meia-lua. Pique a cebola.
 2. Refogue: Em uma panela, aqueça a manteiga ou azeite e refogue a cebola picada até ficar transparente. Adicione o alho-poró e refogue por alguns minutos, até murchar.
 3. Faça o creme béchamel: Adicione a farinha de trigo ao refogado e mexa bem. Lentamente, adicione o leite, mexendo sempre, até obter um creme consistente. Tempere com sal, pimenta do reino e noz-moscada.
@@ -27,6 +27,6 @@ Um prato elegante e saboroso, perfeito para qualquer ocasião.
 6. Montagem: Despeje a mistura em um refratário untado com manteiga e enfarinhado. Polvilhe queijo parmesão ralado por cima.
 7. Asse: Leve ao forno pré-aquecido a 180°C por cerca de 30 a 40 minutos, ou até o suflê crescer e ficar dourado.
 
-## notes
+## notas
 * Para um toque extra de sabor e textura, você pode adicionar queijo muçarela ralado por cima antes de assar para gratinar.
 * Sirva imediatamente após sair do forno para aproveitar a textura aerada do suflê.

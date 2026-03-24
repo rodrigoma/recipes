@@ -4,7 +4,7 @@
 ## info
 * Várias porções
 
-## ingredients
+## ingredientes
 
 ### Molho Pesto Tradicional
 * 4 dentes de alho
@@ -22,7 +22,7 @@
 * Azeite de oliva extravirgem: 1/2 xícara (aqui pode ser mais ou menos, depende do gosto)
 * Sal a gosto
 
-## steps
+## passos
 
 ### Molho Pesto Tradicional
 1. Descasque os dentes de alho, passe pelo espremedor e coloque em uma tigela.
@@ -33,5 +33,5 @@
 ### Pesto Detox
 1. É só juntar todos os ingredientes e bater no liquidificador!
 
-## based on
+## fonte
 * https://blog.duogourmet.com.br/receita-de-molho-pesto/
