@@ -6,7 +6,7 @@ Funcionalidades:
 * Receitas em formato [Markdown](https://daringfireball.net/projects/markdown), basta criar o arquivo e fazer o upload
 * Lista de receitas gerada automaticamente com navegação alfabética
 * Cada receita é exibida em um formato limpo, pensado para uso enquanto cozinha ou no mercado — sem anúncios ou distrações
-* Links automáticos para busca de imagens no Google, receitas e restaurantes próximos
+* Links automáticos para busca de imagens no Google e receitas relacionadas
 * Para marcar o passo atual enquanto cozinha, clique nele para destacá-lo; clique novamente para remover o destaque, ou use as setas do teclado para avançar
 * Código simples e bem comentado, fácil de personalizar
 
@@ -95,7 +95,6 @@ Também é possível incluir imagens dentro da receita usando a sintaxe Markdown
 ## OUTRAS OPÇÕES
 O arquivo `recipe.html` contém algumas opções de personalização:
 
-* `yelpLocation`: cidade/estado para buscas no Yelp. Sem necessidade de formatação especial: `São Paulo SP`
 * `helpUrls`: lista de links de ajuda com `label` (texto exibido) e `url` em formato de template. A string `<name>` será substituída pelo nome da receita
 * `lookForHeroImage`: ativado por padrão; desative se não quiser usar imagens de destaque
 * `autoUrlSections`: lista de seções onde URLs simples são convertidas em links clicáveis. Ideal para a seção `fonte`

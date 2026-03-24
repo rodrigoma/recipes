@@ -1,9 +1,9 @@
-# TITLE
-Optional subheader
+# TÍTULO
+Subtítulo opcional
 
-## info  
-* About XXX minutes  
-* XXX servings  
+## info
+* Cerca de XXX minutos
+* XXX porções
 
 ## ingredientes
 *

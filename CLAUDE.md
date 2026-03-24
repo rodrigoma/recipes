@@ -31,7 +31,7 @@ The CI pipeline runs `update-recipes.sh` automatically on push to master and the
 
 Recipe rendering is entirely client-side: `recipe.html` reads the `#hash` from the URL, fetches the corresponding `.md` file, converts it to HTML with Showdown.js, and injects it into the DOM.
 
-Site configuration (Yelp location, helper links, hero image toggle) lives in the `<script>` block at the top of `recipe.html`.
+Site configuration (`helpUrls`, hero image toggle, `autoUrlSections`, `shortenUrls`) lives in the `<script>` block at the top of `recipe.html`.
 
 ## Recipe Format
 

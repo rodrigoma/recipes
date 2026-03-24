@@ -65,10 +65,10 @@ p, ul, ol {
   font-size:   1em;
   line-height: 1.3em;
 }
-p::first-letter, #ingredients li::first-letter, #steps li::first-letter, #notes li::first-letter, #time::first-letter, #makes::first-letter {
+p::first-letter, #ingredientes li::first-letter, #passos li::first-letter, #notas li::first-letter, #time::first-letter, #makes::first-letter {
   text-transform: uppercase;
 }
-#ingredients p, #steps p, #notes p, #basedon p {
+#ingredientes p, #passos p, #notas p, #fonte p {
   font-weight: 700;
   margin:      1.1em 0 0.6em 0;
 }
@@ -84,13 +84,13 @@ ol li {
   margin-left: 1.05em;
 }
 
-#notes ul, #help ul, #basedon ul, #toc ul {
+#notas ul, #help ul, #fonte ul, #toc ul {
   list-style: square outside;
 }
-#notes ul li, #help ul li, #basedon ul li, #toc ul li {
+#notas ul li, #help ul li, #fonte ul li, #toc ul li {
   margin-left: 1em;
 }
-#notes ul li {
+#notas ul li {
   margin-bottom: 0.4em;
 }
 
@@ -132,12 +132,12 @@ a:active, a:hover {
 }
 
 /* notes links should have an underline */
-#notes a {
+#notas a {
   text-decoration: underline;
 }
 
 /* make sure long urls split at slashes */
-#basedon a {
+#fonte a {
   white-space:    pre-wrap;       /* css-3 */
     white-space:  -moz-pre-wrap;  /* mozilla, since 1999 */
     white-space:  -pre-wrap;      /* opera 4-6 */
@@ -251,17 +251,17 @@ hr {
     padding-bottom: 0;
     border-bottom:  none;
   }
-  #ingredients, #steps {
+  #ingredientes, #passos {
     float: left;
   }
-  #ingredients {
+  #ingredientes {
     width:         33%;
     padding-right: 2em;
   }
-  #ingredients li {
+  #ingredientes li {
     margin-bottom: 0.4em;
   }
-  #steps {
+  #passos {
     width: 66%;
   }
 }

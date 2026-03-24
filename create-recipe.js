@@ -92,10 +92,12 @@ $(document).ready(function() {
         $(this).html(str);
       });
 
-      // in info, add labels to time/quantity
+      // in info, add labels to time/quantity (only if both items exist)
       let time =  $('#info li:eq(0)');
       let makes = $('#info li:eq(1)');
-      $('#info ul').html('<li><span id="time">TIME </span>' + time.text() + '</li><li><span id="makes">MAKES </span>' + makes.text() + '</li>');
+      if (time.length && makes.length) {
+        $('#info ul').html('<li><span id="time">TEMPO </span>' + time.text() + '</li><li><span id="makes">PORÇÕES </span>' + makes.text() + '</li>');
+      }
 
       // link icon svg code
       // via: https://fontawesome.com/icons/external-link-alt
