@@ -1,29 +1,27 @@
-# RECIPE BOOK
+# Livro de Receitas
 
-A super minimal recipe website – great for keeping track of family recipes, mods to ones you find online, or have created yourself!
+Um site minimalista para guardar receitas — perfeito para receitas de família, adaptações de receitas encontradas online ou criações próprias.
 
-**See it in action here: [jeffreythompson.org/recipes](http://jeffreythompson.org/recipes)**
-
-Features:
-* Recipes in a simple [Markdown format](https://daringfireball.net/projects/markdown), just dump them in a folder and upload  
-* List of recipes will auto-populate with quick alpha links at the top  
-* Each recipe is displayed in a nice, clean format designed for use while cooking or at the grocery store – no extra 💩 or ads  
-* Auto-generated links to a Google image search for that dish, recipes on Serious Eats and Google, and for restaurants on Yelp (in case you burn something and need takeout fast)  
-* To save your place while scrolling up around on the page, click the step you're on to highlight it; click it again to remove the highlight, or use the left/right arrow keys to advance  
-* Easily customized and code is (mostly) really well annotated 🙃  
+Funcionalidades:
+* Receitas em formato [Markdown](https://daringfireball.net/projects/markdown), basta criar o arquivo e fazer o upload
+* Lista de receitas gerada automaticamente com navegação alfabética
+* Cada receita é exibida em um formato limpo, pensado para uso enquanto cozinha ou no mercado — sem anúncios ou distrações
+* Links automáticos para busca de imagens no Google, receitas e restaurantes próximos
+* Para marcar o passo atual enquanto cozinha, clique nele para destacá-lo; clique novamente para remover o destaque, ou use as setas do teclado para avançar
+* Código simples e bem comentado, fácil de personalizar
 
 
-## MORE INFO  
-* [Recipe format](#recipe-format)
-* [Adding images](#adding-images)
-* [Other options](#other-options)
-* [Suggestions welcome!](#suggestions-welcome)
+## MAIS INFORMAÇÕES
+* [Formato das receitas](#formato-das-receitas)
+* [Adicionando imagens](#adicionando-imagens)
+* [Outras opções](#outras-opções)
+* [Créditos](#créditos)
 
 
-## RECIPE FORMAT  
-In order to show up properly, your recipe's Markdown file should be named with dashes in place of spaces (ex: `rice-pilaf.md` or `saag-paneer.md`). This will be used to populate your list of recipes on the main page.
+## FORMATO DAS RECEITAS
+O arquivo Markdown da receita deve ter o nome em letras minúsculas com hífens no lugar dos espaços (ex: `arroz-de-forno.md` ou `bolo-de-fuba.md`). Esse nome será usado para popular a lista de receitas na página principal.
 
-Use `recipe-template.md` and/or follow this format:
+Use o `recipe-template.md` como ponto de partida, ou siga este formato:
 
 ```markdown
 # TÍTULO
@@ -46,7 +44,7 @@ Subtítulo opcional
 * url de onde a receita veio
 ```
 
-For example:
+Exemplo:
 
 ```markdown
 # Brigadeiro de Cacau
@@ -70,16 +68,12 @@ For example:
 * Para um sabor mais intenso, use cacau 100%
 ```
 
-You can optionally include info about how long the recipe takes and how many servings it makes. Put this before the `Ingredients` list:  
-
-```## info
-* Cerca de 90 minutos
-* Suficiente para um curry grande
-```
+As seções `info`, `notas` e `fonte` são opcionais.
 
 A seção `ingredientes` e `passos` pode ser dividida com sub-rótulos de texto simples (sem usar `##`):
 
-```## passos
+```markdown
+## passos
 1. Misture os ingredientes secos
 2. Adicione a água aos poucos
 
@@ -89,26 +83,26 @@ Para fritar:
 3. Escorra em papel toalha
 ```
 
-## ADDING IMAGES  
-Thanks to a suggestion from @mpember, if you have a `jpg` image with the same filename as your recipe, it will automatically be added! 
 
-For example: `aloo-matar.md` should have an image called `aloo-matar.jpg` in the `images` folder.
+## ADICIONANDO IMAGENS
+Se houver uma imagem `.jpg` com o mesmo nome do arquivo da receita, ela será exibida automaticamente como imagem de destaque.
 
-You can also include other images in the recipe using Markdown's image syntax: `![alt text](url)`. You'll probably want to update the stylesheet to size them appropriately.
+Por exemplo: `brigadeiro-de-cacau.md` deve ter uma imagem chamada `brigadeiro-de-cacau.jpg` na pasta `images`.
 
-
-## OTHER OPTIONS  
-The `recipe.html` file also includes some more options you can customize:
-
-* `yelpLocation`: the city/state where you're located to make Yelp searches easier! No need for fancy formatting, this will work fine: `Minneapolis MN`  
-* `helpUrls`: dictionary with the `label` (text displayed) and `url` in template form. The string `<name>` will be replaced with your recipe's name  
-* `lookForHeroImage`: on by default, but you can turn it off if you never intend to include hero images  
-* `autoUrlSections`: lista de seções onde URLs simples (ex: www.instagram.com) são convertidas em links clicáveis. Ótimo para a seção `fonte`, mas não ideal se quiser usar links formatados em Markdown em outras seções
-* `shortenUrls`: turns a super-long url into just the main domain name (link will still work as normal, just less cluttered). Off by default but exists if you want it
-
-**Note:** When you add or remove recipe files, run `./update-recipes.sh` to regenerate the `recipes.json` file that contains the list of all recipes.
+Também é possível incluir imagens dentro da receita usando a sintaxe Markdown: `![texto alternativo](url)`.
 
 
-## SUGGESTIONS WELCOME  
-If you have suggestions for improving this project, please let me know! Either [open an issue](https://github.com/jeffThompson/Recipes/issues/new) or send me an email.
+## OUTRAS OPÇÕES
+O arquivo `recipe.html` contém algumas opções de personalização:
 
+* `yelpLocation`: cidade/estado para buscas no Yelp. Sem necessidade de formatação especial: `São Paulo SP`
+* `helpUrls`: lista de links de ajuda com `label` (texto exibido) e `url` em formato de template. A string `<name>` será substituída pelo nome da receita
+* `lookForHeroImage`: ativado por padrão; desative se não quiser usar imagens de destaque
+* `autoUrlSections`: lista de seções onde URLs simples são convertidas em links clicáveis. Ideal para a seção `fonte`
+* `shortenUrls`: exibe apenas o domínio principal de URLs longas (o link continua funcionando normalmente). Desativado por padrão
+
+**Atenção:** ao adicionar ou remover receitas, execute `./update-recipes.sh` para regenerar o arquivo `recipes.json`.
+
+
+## CRÉDITOS
+Este projeto é baseado no [Recipes](https://github.com/jeffThompson/Recipes) de [Jeff Thompson](http://www.jeffreythompson.org/). O código original foi adaptado e traduzido para português.
