@@ -5,15 +5,15 @@ Optional subheader
 * About XXX minutes  
 * XXX servings  
 
-## ingredients
-* 
+## ingredientes
+*
 
-## steps  
-1. 
+## passos
+1.
 
-## notes  
-* 
+## notas
+*
 
-## based on  
-* 
+## fonte
+*
 

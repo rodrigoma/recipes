@@ -26,72 +26,67 @@ In order to show up properly, your recipe's Markdown file should be named with d
 Use `recipe-template.md` and/or follow this format:
 
 ```markdown
-# TITLE
-Optional subheader
+# TÍTULO
+Subtítulo opcional
 
-## info  
-* About XXX minutes  
-* XXX servings  
+## info
+* Cerca de XXX minutos
+* XXX porções
 
-## ingredients
-* 
+## ingredientes
+*
 
-## steps  
-1. 
+## passos
+1.
 
-## notes  
-* 
+## notas
+*
 
-## based on  
-* url to where the recipe came from
+## fonte
+* url de onde a receita veio
 ```
 
 For example:
 
 ```markdown
-# Raspberry and Elderflower Gin and Tonic
-A delicious light-red drink perfect for winter gatherings!
+# Brigadeiro de Cacau
 
-## ingredients
-* 8 raspberries (frozen ok but should be thawed)  
-* Fresh thyme (optional)  
-* Gin  
-* 1/2 lime  
-* 1-2 tbsp St Germaine (or 1-2 tsp simple syrup)  
+## info
+* Cerca de 30 minutos
+* 30 unidades
 
-## steps
-1. Muddle raspberries with 1.5 oz gin (and fresh thyme, if using)  
-2. Add juice of half a lime  
-3. Add 1-2 tbsp St Germaine (or 1-2 tsp simple syrup)  
-4. Strain into glass, add ice cubes and top with tonic 
+## ingredientes
+* 1 lata de leite condensado
+* 3 colheres de sopa de cacau em pó
+* 1 colher de sopa de manteiga
+* Granulado para enrolar
 
-## notes
-* Replace tonic with champagne for a *French 75* mashup   
+## passos
+1. Misture o leite condensado, o cacau e a manteiga em uma panela
+2. Cozinhe em fogo médio, mexendo sempre, até desgrudar do fundo
+3. Deixe esfriar, enrole e passe no granulado
 
-## based on
-* https://www.instagram.com/p/Bq3ckR8HIDE/
+## notas
+* Para um sabor mais intenso, use cacau 100%
 ```
 
 You can optionally include info about how long the recipe takes and how many servings it makes. Put this before the `Ingredients` list:  
 
-```## info  
-* Takes about 90 minutes  
-* Enough for a large biryani or a full-sized curry
+```## info
+* Cerca de 90 minutos
+* Suficiente para um curry grande
 ```
 
-The `Ingredients` and `Steps` sections can be split with subheaders too:
+A seção `ingredientes` e `passos` pode ser dividida com sub-rótulos de texto simples (sem usar `##`):
 
-```## steps
-1. Soak urad dal for 4 hours to overnight, drain  
-2. Grind in blender until a smooth and thick paste (add a little water if necessary)  
-3. Put in mixing bowl and whip with hands for 2-3 minutes until fluffy  
-4. Add spices, herbs, and salt and whip again to combine  
+```## passos
+1. Misture os ingredientes secos
+2. Adicione a água aos poucos
 
-To fry:
-1. Heat oil over medium/medium-high heat  
-2. Take a bowl of water, wet hands, and form small balls  
-3. Slide into oil and cook, flipping often, until golden  
-4. Drain on paper towels  
+Para fritar:
+1. Aqueça o óleo em fogo médio
+2. Frite até dourar
+3. Escorra em papel toalha
 ```
 
 ## ADDING IMAGES  
@@ -108,7 +103,7 @@ The `recipe.html` file also includes some more options you can customize:
 * `yelpLocation`: the city/state where you're located to make Yelp searches easier! No need for fancy formatting, this will work fine: `Minneapolis MN`  
 * `helpUrls`: dictionary with the `label` (text displayed) and `url` in template form. The string `<name>` will be replaced with your recipe's name  
 * `lookForHeroImage`: on by default, but you can turn it off if you never intend to include hero images  
-* `autoUrlSections`: list of sections in the recepe template where you want raw URLs (ex: www.instagram.com) to be turned into real links. Great for the `Based On` section but not so good if you want to include Markdown-formatted links in other sections  
+* `autoUrlSections`: lista de seções onde URLs simples (ex: www.instagram.com) são convertidas em links clicáveis. Ótimo para a seção `fonte`, mas não ideal se quiser usar links formatados em Markdown em outras seções
 * `shortenUrls`: turns a super-long url into just the main domain name (link will still work as normal, just less cluttered). Off by default but exists if you want it
 
 **Note:** When you add or remove recipe files, run `./update-recipes.sh` to regenerate the `recipes.json` file that contains the list of all recipes.
