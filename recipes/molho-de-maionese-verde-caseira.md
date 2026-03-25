@@ -12,22 +12,23 @@ Uma opção deliciosa e versátil, feita com maionese caseira e ingredientes fre
 * 1 colher (sopa) de vinagre de maçã (opcional, para dar um toque de acidez)
 
 ## passos
+
 Preparando as ervas frescas
 1. Lave bem a salsinha e a cebolinha e pique-as finamente. Se você preferir, pode bater as ervas no liquidificador ou processador para obter um molho mais homogêneo e de cor mais intensa.
 
 Misturando os ingredientes
-2. Em uma tigela média, coloque a maionese e adicione as ervas picadas, o alho amassado, o azeite de oliva e o suco de limão.
-3. Misture bem até que todos os ingredientes estejam incorporados, formando uma mistura cremosa e verde. Se preferir um molho mais suave, você pode bater no liquidificador para deixar tudo bem homogêneo.
+1. Em uma tigela média, coloque a maionese e adicione as ervas picadas, o alho amassado, o azeite de oliva e o suco de limão.
+2. Misture bem até que todos os ingredientes estejam incorporados, formando uma mistura cremosa e verde. Se preferir um molho mais suave, você pode bater no liquidificador para deixar tudo bem homogêneo.
 
 Ajustando o sabor
-4. Tempere com sal e pimenta-do-reino a gosto.
-5. Se achar que o molho precisa de um toque mais ácido, adicione o vinagre de maçã, que vai dar um frescor extra à receita. Se preferir um molho mais cremoso, pode acrescentar mais maionese.
+1. Tempere com sal e pimenta-do-reino a gosto.
+2. Se achar que o molho precisa de um toque mais ácido, adicione o vinagre de maçã, que vai dar um frescor extra à receita. Se preferir um molho mais cremoso, pode acrescentar mais maionese.
 
 Deixe descansar na geladeira
-6. Para que os sabores se intensifiquem, é interessante deixar o molho de maionese verde descansar por pelo menos 30 minutos na geladeira antes de servir. Isso vai permitir que as ervas soltem seus óleos essenciais, deixando o molho mais saboroso e aromático.
+1. Para que os sabores se intensifiquem, é interessante deixar o molho de maionese verde descansar por pelo menos 30 minutos na geladeira antes de servir. Isso vai permitir que as ervas soltem seus óleos essenciais, deixando o molho mais saboroso e aromático.
 
 Servindo o molho
-7. O molho de maionese verde é perfeito para acompanhar saladas, grelhados, peixes, frango, batatas assadas, ou até mesmo como molho para sanduíches e hambúrgueres. Ele também pode ser servido como acompanhamento para petiscos e entradas, trazendo um toque de frescor e sabor.
+1. O molho de maionese verde é perfeito para acompanhar saladas, grelhados, peixes, frango, batatas assadas, ou até mesmo como molho para sanduíches e hambúrgueres. Ele também pode ser servido como acompanhamento para petiscos e entradas, trazendo um toque de frescor e sabor.
 
 ## notas
 * **Varie as ervas:** Embora a salsinha e a cebolinha sejam as ervas mais comuns, você pode variar o molho de acordo com o seu gosto, utilizando manjericão, tomilho ou hortelã para dar um sabor diferente.
