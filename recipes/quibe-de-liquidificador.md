@@ -1,7 +1,7 @@
 # Quibe de Liquidificador Sem Erro
 
 ## info
-* Rendimento: 18 unidades (porções de 100g)
+* 18 porções de 100g
 
 ## ingredientes
 * 500g de trigo para quibe
